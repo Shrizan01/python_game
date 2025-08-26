@@ -27,8 +27,8 @@ for q in questions:
         print(option)
     print()
 
-    answer = input("Your answer: ").lower()  # get user input
-    if answer == q["answer"]:      # check if answer is correct
+    answer = input("Your answer: ").lower()  
+    if answer == q["answer"]:     
         print("Correct! ✅\n")
         score += 1
     else:
